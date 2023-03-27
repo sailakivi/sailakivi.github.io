@@ -1,209 +1,472 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<title>Jungleland</title>
-<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
-<!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css" media="screen" /><![endif]-->
-</head>
-<body>
-<!-- wrap -->
-<div id="wrap">
-  <!-- header -->
-  <div id="header"> <a name="top"></a>
-    <h1 id="logo-text"><a href="#">jungleland</a></h1>
-    <p id="slogan">Just Another Styleshout CSS Template... </p>
-    <div  id="nav">
-      <ul>
-        <li id="current"><a href="#">Home</a></li>
-        <li><a href="style.html">Style Demo</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="archives.html">Archives</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-    </div>
-    <p id="rss-feed"><a href="#" class="feed">Grab the RSS FEEd</a></p>
-    <form id="quick-search" action="#" method="get" >
-      <p>
-        <label for="qsearch">Search:</label>
-        <input class="tbox" id="qsearch" type="text" name="qsearch" value="Search..." title="Start typing and hit ENTER" />
-        <input class="btn" alt="Search" type="image" name="searchsubmit" title="Search" src="images/search.png" />
-      </p>
-    </form>
-    <!-- /header -->
-  </div>
-  <!-- featured -->
-  <div id="featured">
-    <div id="featured-block" class="clear">
-      <div id="featured-ribbon"></div>
-      <a name="TemplateInfo"></a>
-      <div class="image-block"> <a href="#"><img src="images/img-featured.jpg" alt="" width="350px" height="250px"/></a> </div>
-      <div class="text-block">
-        <h2><a href="#">Read me first</a></h2>
-        <p class="post-info">Posted by <a href="#">erwin</a> | Filed under <a href="#">templates</a>, <a href="#">internet</a></p>
-        <p><strong>JungleLand 1.0</strong> is a free, W3C-compliant, CSS-based website template by styleshout.com. This work is distributed under the <a href="http://creativecommons.org/licenses/by/2.5/"> Creative Commons Attribution 2.5 License</a>, which means that you are free to use and modify it for any purpose. All I ask is that you include a link back to my website in your credits. For more free designs, you can visit my website to see my other works. </p>
-        <p>Good luck and I hope you find my free templates useful!</p>
-        <p><a href="#" class="more-link">Read More</a></p>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>cs</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
       </div>
-    </div>
-    <!-- /featured -->
-  </div>
-  <!-- content -->
-  <div id="content-wrap" class="clear">
-    <div id="content">
-      <!-- main -->
-      <div id="main">
-        <h3>Recent Articles</h3>
-        <div class="block odd"> <a href="#"><img src="images/thumb-1.jpg" class="thumbnail" alt="" width="240px" height="100px"/></a>
-          <div class="blk-top">
-            <h4><a href="#">Aliquam Risus Justo Lorem Ipsum Dolor Sit Amet</a></h4>
-            <p><span class="datetime">August 27, 2009</span><a href="#" class="comment">2 Comments</a></p>
-          </div>
-          <div class="blk-content">
-            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. </p>
-            <p><a class="more" href="#">continue reading &raquo;</a></p>
-          </div>
-        </div>
-        <div class="block even"> <a href="#"><img src="images/thumb-2.jpg" class="thumbnail" alt="" width="240px" height="100px"/></a>
-          <div class="blk-top">
-            <h4><a href="#">Aliquam Risus Justo</a></h4>
-            <p><span class="datetime">August 26, 2009</span> <a href="#" class="comment">2 Comments</a></p>
-          </div>
-          <div class="blk-content">
-            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. <a class="more" href="#">continue reading &raquo;</a> </p>
-            <p></p>
-          </div>
-        </div>
-        <div class="fix"></div>
-        <div class="block odd"> <a href="#"><img src="images/thumb-3.jpg" class="thumbnail" alt="" width="240px" height="100px"/></a>
-          <div class="blk-top">
-            <h4><a href="#">Justo Lorem Ipsum Dolor Sit Amet</a></h4>
-            <p><span class="datetime">August 26, 2009</span> <a href="#" class="comment">2 Comments</a></p>
-          </div>
-          <div class="blk-content">
-            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. </p>
-            <p><a class="more" href="#">continue reading &raquo;</a></p>
-          </div>
-        </div>
-        <div class="block even"> <a href="#"><img src="images/thumb-4.jpg" class="thumbnail" alt="" width="240px" height="100px"/></a>
-          <div class="blk-top">
-            <h4><a href="#">Aliquam Risus Justo</a></h4>
-            <p><span class="datetime">August 25, 2009</span> <a href="#" class="comment">2 Comments</a></p>
-          </div>
-          <div class="blk-content">
-            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. </p>
-            <p><a class="more" href="#">continue reading &raquo;</a></p>
-          </div>
-        </div>
-        <div class="fix"></div>
-        <!-- /main -->
+      <div class="wrapper">
+         <!-- end loader -->
+         <div class="sidebar">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+               <div id="dismiss">
+                  <i class="fa fa-arrow-left"></i>
+               </div>
+               <ul class="list-unstyled components">
+                  <li class="active">
+                     <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                     <a href="#about">About</a>
+                  </li>
+                  <li>
+                     <a href="#game">Game</a>
+                  </li>
+                  <li>
+                     <a href="#customer">Our customer</a>
+                  </li>
+                  <li>
+                     <a href="#contact">Conatct</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+         <div id="content">
+            <!-- header -->
+            <header>
+               <!-- header inner -->
+               <div class="head_top">
+                  <div class="header">
+                     <div class="container-fluid">
+                        <div class="row">
+                           <div class="col-md-3 logo_section">
+                              <div class="full">
+                                 <div class="center-desk">
+                                    <div class="logo">
+                                       <a href="index.html"><img src="images/logo.png" alt="#"></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-9">
+                              <div class="right_header_info">
+                                 <ul>
+                                    <li class="menu_iconb">
+                                       <a href="Javascript:void(0)">Login</a>
+                                    </li>
+                                    <li>
+                                       <button type="button" id="sidebarCollapse">
+                                       <img src="images/menu_icon.png" alt="#" />
+                                       </button>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </header>
+            <!-- end header inner -->
+            <!-- end header -->
+            <section class="slider_section">
+               <div class="banner_main">
+                  <img src="images/bg_main.jpg" alt="#"/>
+                  <div class="container-fluid padding3">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="text-bg">
+                              <a href="Javascript:void(0)">Play now</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         <!-- Categories -->
+         <!-- casino -->
+         <div id="game" class="casino">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2>Our Casino Games</h2>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-4 padding_bottom">
+                     <div class="game_box">
+                        <figure><img src="images/game1.jpg" alt="#"/></figure>
+                     </div>
+                     <div class="game">
+                        <h3>Game 1</h3>
+                     </div>
+                  </div>
+                  <div class="col-md-4 padding_bottom">
+                     <div class="game_box">
+                        <figure><img src="images/game2.jpg" alt="#"/></figure>
+                     </div>
+                     <div class="game">
+                        <h3>Game 2</h3>
+                     </div>
+                  </div>
+                  <div class="col-md-4 padding_bottom">
+                     <div class="game_box">
+                        <figure><img src="images/game3.jpg" alt="#"/></figure>
+                     </div>
+                     <div class="game">
+                        <h3>Game 3</h3>
+                     </div>
+                  </div>
+                  <div class="col-md-4 margin_bottom1">
+                     <div class="game_box">
+                        <figure><img src="images/game4.jpg" alt="#"/></figure>
+                     </div>
+                     <div class="game">
+                        <h3>Game 4</h3>
+                     </div>
+                  </div>
+                  <div class="col-md-4 margin_bottom1">
+                     <div class="game_box">
+                        <figure><img src="images/game5.jpg" alt="#"/></figure>
+                     </div>
+                     <div class="game">
+                        <h3>Game 5</h3>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="game_box">
+                        <figure><img src="images/game6.jpg" alt="#"/></figure>
+                     </div>
+                     <div class="game">
+                        <h3>Game 6</h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end casino -->
+         <!-- licens -->
+         <div class="licens">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2>Licensing & Reglation</h2>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div id="licens" class="carousel slide licens_Carousel " data-ride="carousel">
+                        <ol class="carousel-indicators">
+                           <li data-target="#licens" data-slide-to="0" class="active"></li>
+                           <li data-target="#licens" data-slide-to="1"></li>
+                           <li data-target="#licens" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                           <div class="carousel-item active">
+                              <div class="container">
+                                 <div class="carousel-caption ">
+                                    <div class="row d_flex">
+                                       <div  class="col-md-6">
+                                          <div class="test_box">
+                                             <div class="jons">
+                                                <h4>Promotins</h4>
+                                             </div>
+                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                             <a class="read_more" href="Javascript:void(0)">Play Online</a>
+                                          </div>
+                                       </div>
+                                       <div  class="col-md-6">
+                                          <div class="test_box">
+                                             <div class="jons">
+                                                <figure><img src="images/jons_img1.png" alt="#"/></figure>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="carousel-item">
+                              <div class="container">
+                                 <div class="carousel-caption">
+                                    <div class="row d_flex">
+                                       <div  class="col-md-6">
+                                          <div class="test_box">
+                                             <div class="jons">
+                                                <h4>Promotins</h4>
+                                             </div>
+                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                             <a class="read_more" href="Javascript:void(0)">Play Online</a>
+                                          </div>
+                                       </div>
+                                       <div  class="col-md-6">
+                                          <div class="test_box">
+                                             <div class="jons">
+                                                <figure><img src="images/jons_img1.png" alt="#"/></figure>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="carousel-item">
+                              <div class="container">
+                                 <div class="carousel-caption">
+                                    <div class="row d_flex">
+                                       <div  class="col-md-6">
+                                          <div class="test_box">
+                                             <div class="jons">
+                                                <h4>Promotins</h4>
+                                             </div>
+                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                             <a class="read_more" href="Javascript:void(0)">Play Online</a>
+                                          </div>
+                                       </div>
+                                       <div  class="col-md-6">
+                                          <div class="test_box">
+                                             <div class="jons">
+                                                <figure><img src="images/jons_img1.png" alt="#"/></figure>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#licens" role="button" data-slide="prev">
+                        <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#licens" role="button" data-slide="next">
+                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                     </div>
+                     <p class="lorem">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                  </div>
+                  <div id="about" class="col-md-12">
+                     <ul class="spinit">
+                        <li><a href="Javascript:void(0)">About spinit</a></li>
+                        <li><a href="Javascript:void(0)">our promotions</a></li>
+                        <li><a href="Javascript:void(0)">over 1000games</a></li>
+                        <li><a href="Javascript:void(0)">our mobile app</a></li>
+                     </ul>
+                     <div class="two_box">
+                        <div class="row d_flex">
+                           <div class="col-md-4">
+                              <div class="many_box_img">
+                                 <figure><img src="images/imag.jpg" alt="#"/></figure>
+                              </div>
+                           </div>
+                           <div class="col-md-8">
+                              <div class="many_box">
+                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variati<br>
+                                    ons of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end lLicens -->
+         <!-- customer -->
+         <div id="customer"  class="customer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2>What Says Our customer</h2>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-10 offset-md-1">
+                     <div class="customer_text">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <div class="customer_box">
+                           <i><img src="images/customer.png" alt="#"/></i>
+                           <h4>Mark jo</h4>
+                           <span>jected humour</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end customer -->
+         <!-- reqeste -->
+         <div id="contact" class="reqeste">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2>Reqeste A call back</h2>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-6 offset-md-3">
+                     <form id="cochang" class="form_main">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <input class="form_control" placeholder="Name" type="text" name="Name">
+                           </div>
+                           <div class="col-md-12">
+                              <input class="form_control" placeholder="Phone number" type="text" name="Phone number">
+                           </div>
+                           <div class="col-md-12">
+                              <input class="form_control" placeholder="Email" type="text" name="Email">
+                           </div>
+                           <div class="col-md-12">
+                              <input class="form_control" placeholder="Message" type="text" name="Message">
+                           </div>
+                           <div class="col-md-12">
+                              <button class="send_btn">Send</button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end reqeste -->
+         <!--  footer -->
+         <footer>
+            <div class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="address">
+                           <h3>Subscribe Now</h3>
+                           <form class="newtetter">
+                              <button class="submit">submit</button>
+                              <input class="tetter" placeholder="Enter your email" type="text" name="Enter your email">
+                           </form>
+                        </div>
+                     </div>
+                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="row">
+                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <div class="address">
+                                 <h3>Links</h3>
+                                 <ul class="Menu_footer">
+                                    <li class="active"> <a href="index.html">Home</a> </li>
+                                    <li><a href="#about">About</a> </li>
+                                    <li><a href="#game">Game</a> </li>
+                                    <li><a href="#customer">customer</a> </li>
+                                    <li><a href="#conatct">Conatct</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <div class="address">
+                                 <h3>Contact us</h3>
+                                 <ul class="Links_footer">
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="copyright">
+                  <div class="container">
+                     <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Free html Templates</a></p>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!-- end footer -->
       </div>
+      <div class="overlay"></div>
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
       <!-- sidebar -->
-      <div id="sidebar">
-        <div class="sidemenu">
-          <h3>Sidebar Menu</h3>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">TemplateInfo</a></li>
-            <li><a href="#">Style Demo</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Archives</a></li>
-            <li><a href="#">More Free Templates</a></li>
-            <li><a href="#">Premium Templates</a></li>
-          </ul>
-        </div>
-        <div class="sidemenu">
-          <h3>Sponsors</h3>
-          <ul>
-            <li><a href="#">ThemeForest</a><span>Your Choice for Site Templates, Wordpress, Joomla and CMS Themes</span></li>
-            <li><a href="#">4templates</a><span>Low Cost Hi-Quality Templates</span></li>
-            <li><a href="#">TemplateMonster</a><span>Delivering the Best Templates on the Net!</span></li>
-            <li><a href="#">Text Link Ads</a><span>Monetized your website</span></li>
-            <li><a href="#">Fotolia</a><span>Free stock images or from $1</span></li>
-            <li><a href="#">Dreamhost</a><span>Premium webhosting</span></li>
-          </ul>
-        </div>
-        <h3>Image Gallery </h3>
-        <p class="thumbs"> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> <a href="#"><img src="images/thumb.jpg" width="40" height="40" alt="" /></a> </p>
-        <!-- /sidebar -->
-      </div>
-      <!-- /content -->
-    </div>
-    <!-- /content-wrap -->
-  </div>
-  <!-- /wrap -->
-</div>
-<!-- footer -->
-<div id="footer">
-  <!-- footer-outer -->
-  <div id="footer-outer" class="clear">
-    <div id="footer-wrap">
-      <div class="col-a">
-        <h3>Contact Info</h3>
-        <p> <strong>Phone: </strong>+1234567<br/>
-          <strong>Fax: </strong>+123456789 </p>
-        <p><strong>Address: </strong>123 Put Your Address Here</p>
-        <p><strong>E-mail: </strong>me@jungleland.com</p>
-        <p>Want more info - go to our <a href="#">contact page</a></p>
-        <h3>Follow Us</h3>
-        <div class="footer-list">
-          <ul>
-            <li><a href="#" class="rssfeed">RSS Feed</a></li>
-            <li><a href="#" class="email">Email</a></li>
-            <li><a href="#" class="twitter">Twitter</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-a">
-        <h3>Site Links</h3>
-        <div class="footer-list">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Style Demo</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Archive</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Template Info</a></li>
-            <li><a href="#">Site Map</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-a">
-        <h3>Web Resource</h3>
-        <p>Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. </p>
-        <div class="footer-list">
-          <ul>
-            <li><a href="#">NetTuts</a></li>
-            <li><a href="#">Smashing Magazine</a></li>
-            <li><a href="#">PSDTuts</a></li>
-            <li><a href="#">Tutorial9</a></li>
-            <li><a href="#">Web Designer Wall</a></li>
-            <li><a href="#">Best Web Gallery</a></li>
-            <li><a href="#">Web Creme</a></li>
-            <li><a href="#">CSS Mania</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-b">
-        <h3>About</h3>
-        <p> <a href="#"><img src="images/gravatar.jpg" width="40" height="40" alt="" class="float-left" /></a> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. <a href="#">Learn more...</a> </p>
-      </div>
-      <div class="fix"></div>
-      <!-- footer-bottom -->
-      <div id="footer-bottom">
-        <div class="bottom-left">
-          <p> &copy; 2009 <strong>Copyright Info Here</strong>&nbsp; &nbsp; &nbsp; Design by: <a href="http://www.styleshout.com/">styleshout</a> </p>
-        </div>
-        <div class="bottom-right">
-          <p> <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://validator.w3.org/check/referer">XHTML</a> | <a href="#">Home</a> | <strong><a href="#top" class="back-to-top">Back to Top</a></strong> </p>
-        </div>
-        <!-- /footer-bottom -->
-      </div>
-      <!-- /footer-outer -->
-    </div>
-  </div>
-  <!-- /footer -->
-</div>
-</body>
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+       <script src="js/custom.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+             $("#sidebar").mCustomScrollbar({
+                 theme: "minimal"
+             });
+         
+             $('#dismiss, .overlay').on('click', function() {
+                 $('#sidebar').removeClass('active');
+                 $('.overlay').removeClass('active');
+             });
+         
+             $('#sidebarCollapse').on('click', function() {
+                 $('#sidebar').addClass('active');
+                 $('.overlay').addClass('active');
+                 $('.collapse.in').toggleClass('in');
+                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+             });
+         });
+      </script>
+      <script>
+         $(document).ready(function() {
+             $(".fancybox").fancybox({
+                 openEffect: "none",
+                 closeEffect: "none"
+             });
+         
+             $(".zoom").hover(function() {
+         
+                 $(this).addClass('transition');
+             }, function() {
+         
+                 $(this).removeClass('transition');
+             });
+         });
+      </script>
+     
+   </body>
 </html>
+
